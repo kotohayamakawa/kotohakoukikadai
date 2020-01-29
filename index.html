@@ -5,21 +5,24 @@
      <title>後期課題山川</title>
 <link rel="stylesheet" href="mystyle.css">
 <script src="myjs.js"></script>
-<script src="ex6-9.js"></script>
-<script src="ex6-10.js"></script>
+<script src="ex06-9.js"></script>
+<script src="ex06-10.js"></script>
 <script src="ex06-11.js"></script>
 <script src="ex06-12.js"></script>
 <script src="ex06-13.js"></script>
-</head>
 
-     <h1>JavaScriptによるページの変更69</h1>
-     <div id="txt1" >
-       <input type="button" value="テキストの変更" onclick="txtchange1();">画像</div>
- <br>
-     <div id="image1" >
-       <input type="button" value="画像の変更" onclick="imgchange1();">
-   <img src='./image/snowman' id="logo" alt="snowman Logo"></div>
- <br>
+</head>
+<body>
+
+<h1>JavaScriptによるページの変更69</h1>
+<div id="txt1" >
+<input type="button" value="テキストの変更" onclick="txtchange1();">画像</div>
+<br>
+<div id="image1" >
+<input type="button" value="画像の変更" onclick="imgchange1();">
+<img src='./image/snowman.png' id="logo" alt="snowman Logo"></div>
+<br>
+
 
 <h1>タイマーイベントによる実行6-10</h1>
  <form name="timer"> 
@@ -27,7 +30,7 @@
  <br> 
  <input type="text" name="moji" size="30" value=""> 
  </form>
- <br>
+ 
    
  <form> 
    <input type="button" value="Timer" onclick="setTimeout('mes()',3000)"> 
@@ -42,13 +45,16 @@
    <br>
   <h1>タイマーイベントによる実行6-12</h1>
        <input type="button" value="3秒で変更" onclick="ThreeSecChange();">
-   <img src='./image/snowman.png' id="logo2" alt="snowman Logo">
+   <img src='./image/snowman.png' id="logo2" alt="snowman2 Logo">
    <br>
     <h1>タイマーイベントによる実行の応用6-13</h1>
    <div id="back">
        <input type="button" value="変更後3秒でまた戻る" 
               onclick="ChangeImageAndBack();">
+<img src='./image/snowman.png' id="img13" alt="snowman2 Logo" class="imagechange">
+ </div>
 
+</body></html>
 
 
 
