@@ -4,12 +4,12 @@ function ThreeSecChange() {
    
 
  function imgchange12() {
-   document.getElementById('logo2').src = './image/snowman.png';
+   document.getElementById('logo2').src = './image/snowman2.png';
  }
 
 
  //      <input type="button" value="画像の変更" onclick="imgchange1();">
- //  <img src='./image/snowman2.png' id="logo" alt="snowman2 Logo">
+ //  <img src='./image/snowman.png' id="logo" alt="snowman Logo">
 
  // * ex06-9.js
  // function imgchange1() {
